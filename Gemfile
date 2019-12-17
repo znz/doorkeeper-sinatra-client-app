@@ -4,6 +4,4 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'sinatra-contrib'
-
-gem 'omniauth'
-gem 'omniauth-oauth2'
+gem 'oauth2'
