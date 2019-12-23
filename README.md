@@ -9,7 +9,7 @@ This is a simple demo oauth2 client for doorkeeper gem.
 ```ruby
 application = Doorkeeper::Application.create!(
   name: 'Sample Client',
-  redirect_uri: 'http://localhost:4567',
+  redirect_uri: 'http://localhost:4567/callback',
   scopes: 'public sample',
 )
 puts "CLIENT_ID=#{application.uid}"
